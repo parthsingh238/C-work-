@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main() 
+{int l,b;
+printf("enter length");
+scanf ("%d",&l);
+
+printf("enter breadth");
+scanf ("%d",&b);
+
+int area , peri;
+area = l*b;
+peri = 2*(l+b);
+printf("area is %d\n",area);
+printf("perimeter is %d\n",peri);
+return 0;
+}

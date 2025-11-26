@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main()
+{int F,C;
+printf("Enter temp in cel");
+scanf("%d",&C);
+
+F=(C* 9/5)+ 32;
+printf ("Temp (in F): %d,F");
+return 0 ;
+} 
